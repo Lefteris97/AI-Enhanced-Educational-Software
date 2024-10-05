@@ -1,0 +1,6 @@
+.noAccessMessage{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(2, 91%, 68%);
+    font-size: 28px;
+}

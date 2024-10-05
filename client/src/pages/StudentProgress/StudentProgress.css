@@ -1,0 +1,74 @@
+.progressContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoContainer{
+    width: 60%;
+}
+
+.perfHeader{
+    margin: 20px 0 10px 150px;
+}
+
+.idAndName{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.perfForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.perfForm .form-group {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfFormBtn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 100px;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.perfFormBtn:hover{
+    background-color: hsl(0, 0%, 93%);
+}
+
+.perfForm label {
+    margin-bottom: 5px;
+}
+
+.perfForm input {
+    width: 60px;
+}
+
+.graphHeader{
+    margin: 10px 0 10px 50px
+}
+
+.noDataMsg {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+}
+
+.formErrorMsg{
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+}
+
+.btnError{
+    display: flex;
+    flex-direction: column;
+}

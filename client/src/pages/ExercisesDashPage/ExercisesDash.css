@@ -1,0 +1,15 @@
+.exercises .info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.exercises .info button{
+    padding: 10px;
+    outline: auto;
+}
+
+.exercises .info button:hover{
+    background-color: hsl(0, 0%, 93%);
+}

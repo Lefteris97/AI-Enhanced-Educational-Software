@@ -1,0 +1,15 @@
+.searchBar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.searchIcon{
+    cursor: pointer;
+}
+
+.searchIcon:hover{
+    color: hsl(224, 73%, 59%);
+}

@@ -1,0 +1,32 @@
+.lessonDetails {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.lessonTitle {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.lessonContent {
+    margin-bottom: 30px;
+    text-indent: 30px;
+    white-space: inherit;
+    background-color: rgb(211, 226, 238);
+    padding: 20px; 
+    border-radius: 5px;
+    max-width: 100%; 
+}
+
+.backContainer {
+    margin-top: 20px; 
+}
+
+.backLink{
+    outline: auto;
+    padding: 10px;
+}

@@ -1,0 +1,100 @@
+.exHeader {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.exercisesList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exerciseItem {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px ;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.exerciseName {
+    width: 400px;
+    margin-right: 10px; 
+}
+
+.exerciseFile {
+    width: 100px;
+    text-align: center; 
+    margin-right: 10px; 
+}
+
+.uploadAnswer {
+    width: 500px; 
+    display: flex;
+    margin-right: 10px; 
+    align-items: center;
+    justify-content: center;
+    gap: 5x;
+}
+
+.answerLabel{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 5px;
+}
+
+.uploadAnswer button, .esInput button{
+    outline: auto;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.uploadAnswer button:hover, .esInput button:hover{
+    background-color: hsl(0, 0%, 93%);
+}
+
+.exerciseGrade {
+    width: 100px; 
+    text-align: center; 
+}
+
+.uploadAnswer button:disabled,
+.uploadAnswer input:disabled {
+    cursor: not-allowed;
+}
+
+.esHeader{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.feedbackItem{
+    margin-top: 12px;
+}
+
+.uploadEssayLabel{
+    align-items: center;
+    margin-right: 5px;
+}
+
+.esInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.feedback{
+    margin-left: 25%;
+}
+
+.feedback h2{
+    text-decoration: underline;
+}

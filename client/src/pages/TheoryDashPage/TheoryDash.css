@@ -1,0 +1,17 @@
+.lessons .info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.lessons .info button{
+    /* padding: 5px;
+    cursor: pointer; */
+    padding: 10px;
+    outline: auto;
+}
+
+.lessons .info button:hover{
+    background-color: hsl(0, 0%, 93%);
+}

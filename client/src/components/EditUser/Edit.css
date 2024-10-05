@@ -1,0 +1,42 @@
+
+.itemPage .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.itemPage .info button{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.infoHeader{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.infoHeader button{
+    outline: auto;
+    padding: 10px;
+}
+
+.infoHeader button:hover{
+    background-color: hsl(0, 0%, 93%);
+}
+
+.itemPage .details{
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.itemTitle{
+    font-weight: bold;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+
+.fileUpload{
+    align-items: center;
+}

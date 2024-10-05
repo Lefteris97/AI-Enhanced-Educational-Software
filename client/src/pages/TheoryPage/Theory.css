@@ -1,0 +1,27 @@
+.lessonsHeader{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.lessonsList{
+    list-style: none;
+    display: grid;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.lessonItems {
+    height: 60px;
+    padding: 10px 50px 10px 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    outline: auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+}

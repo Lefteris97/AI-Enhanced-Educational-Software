@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header .title{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.logoutBtn{
+    margin-right: 80px;
+    padding: 10px;
+    outline: auto;
+}
+
+.logoutBtn:hover{
+    background-color: hsl(0, 0%, 93%);
+}

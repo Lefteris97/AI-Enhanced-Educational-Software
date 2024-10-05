@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.homeImage{
+    object-fit: contain;
+    height: 70%;
+    width: 60%;
+    background-color: aqua;
+}

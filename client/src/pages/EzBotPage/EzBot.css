@@ -1,0 +1,59 @@
+.EzBotContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ezbotHeader{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.recordBtn {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.not_recording {
+    background-color: white;
+}
+
+.not_recording:hover{
+    color:hsl(244, 91%, 66%);
+}
+
+.recording {
+    background-color: hsl(0, 78%, 56%);
+}
+
+.recording:hover{
+    color: white;
+}
+
+.conversationScreen {
+    min-height: 700px;
+    min-width: 600px;
+    max-height: 700px;
+    max-width: 600px;
+    overflow-y: auto;
+    border: 1px solid hsl(0, 0%, 80%); 
+    padding: 10px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 5px; 
+    margin-bottom: 10px;
+}
+
+.message {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.user {
+    text-align: right;
+    color: hsl(216, 33%, 36%);
+}
+
+.bot {
+    text-align: left;
+    color: hsl(214, 66%, 49%); 
+}

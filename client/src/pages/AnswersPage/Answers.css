@@ -1,0 +1,57 @@
+.anHeader{
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+    align-items: center;
+}
+
+.answerItem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.answerItem a{
+    font-size: 22px;
+}
+
+.answerFile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.inputGrade{
+    display: flex;
+    gap: 5px
+}
+
+.inputGrade input{
+    width: 50px;
+    height: 35px;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.answerButton{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+
+.saveButton{
+    width: 80px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 94%);
+    text-align: center;
+    line-height: 45px;
+    color: black;
+}
+
+.saveButton:hover{
+    background-color: hsl(0, 0%, 85%);
+}
