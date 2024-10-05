@@ -1,0 +1,66 @@
+{
+    "intents": [
+        {
+            "patterns": [
+                "Hello",
+                "Hi"
+            ],
+            "responses": [
+                "Hi. How can I help you?",
+                "Hello. Anything I can do for you?"
+            ]
+        },
+        {
+            "patterns": [
+                "Do I have homework?",
+                "Homework"
+            ],
+            "responses": [
+                "There is a new exercise in the Exercises section."
+            ]
+        },
+        {
+            "patterns": [
+                "Help with grammar",
+                "Explain grammar",
+                "Grammar rules"
+            ],
+            "responses": [
+                "Sure, I can help. Which grammar rule are you struggling with?",
+                "Let me know what part of grammar you'd like to go over."
+            ]
+        },
+        {
+            "patterns": [
+                "Vocabulary practice",
+                "I want to learn new words",
+                "Teach me new words"
+            ],
+            "responses": [
+                "Let's start with a few new words. First word: opportunity.",
+                "How about these words: effort, achievement, goal?"
+            ]
+        },
+        {
+            "patterns": [
+                "Can you help me with pronunciation?",
+                "Can you help with pronunciation?",
+                "Pronunciation practice"
+            ],
+            "responses": [
+                "Of course! Which word would you like to practice?",
+                "Sure, I can help. Let's start with a simple word."
+            ]
+        },
+        {
+            "patterns": [
+                "Thank you",
+                "Thanks"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem, happy to help!"
+            ]
+        }
+    ]
+}
