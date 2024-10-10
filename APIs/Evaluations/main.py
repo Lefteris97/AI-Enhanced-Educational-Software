@@ -61,7 +61,7 @@ def get_db():
         db.close()
 
 # Create annotation for db for the dependency injection
-db_dependency = Annotated[Session, Depends(get_db)]  ## Isws dn xreiazetai
+db_dependency = Annotated[Session, Depends(get_db)] 
 
 # Endpoint to fetch student by ID
 @app.get('/student/{user_id}', response_model=PageOutput)
